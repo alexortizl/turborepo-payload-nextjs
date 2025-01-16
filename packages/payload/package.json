@@ -1,0 +1,34 @@
+{
+  "name": "@repo/payload",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./config": {
+      "types": "./src/payload.config.ts",
+      "default": "./src/payload.config.ts"
+    },
+    "./types": {
+      "types": "./types/payload-types.ts",
+      "default": "./types/payload-types.ts"
+    }
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "generate-types": "payload generate:types"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.10.7",
+    "typescript": "5.7.3",
+    "payload": "^3.17.1"
+  },
+  "peerDependencies": {
+    "@payloadcms/db-mongodb": "^3.x.x",
+    "@payloadcms/richtext-lexical": "^3.x.x",
+    "graphql": "16.x.x",
+    "payload": "^3.x.x",
+    "sharp": "0.x.x"
+  }
+}
