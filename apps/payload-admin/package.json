@@ -14,26 +14,26 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/db-mongodb": "^3.17.1",
-    "@payloadcms/next": "^3.17.1",
-    "@payloadcms/richtext-lexical": "^3.17.1",
+    "@payloadcms/db-mongodb": "^3.22.0",
+    "@payloadcms/next": "^3.22.0",
+    "@payloadcms/richtext-lexical": "^3.22.0",
     "@repo/payload": "workspace:*",
     "cross-env": "^7.0.3",
     "graphql": "^16.10.0",
-    "next": "15.1.4",
-    "payload": "^3.17.1",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "sharp": "0.33.5"
+    "next": "^15.1.7",
+    "payload": "^3.22.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.10.7",
-    "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3",
-    "typescript": "5.7.3"
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "typescript": "^5.7.3"
   },
   "engines": {
     "node": "^18.20.2 || >=20.9.0"
