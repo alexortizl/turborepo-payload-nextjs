@@ -10,8 +10,8 @@
       "default": "./src/payload.config.ts"
     },
     "./types": {
-      "types": "./types/payload-types.ts",
-      "default": "./types/payload-types.ts"
+      "types": "./src/types/payload-types.ts",
+      "default": "./src/types/payload-types.ts"
     }
   },
   "scripts": {
@@ -20,8 +20,8 @@
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.13.1",
-    "payload": "^3.22.0",
+    "@types/node": "^22.13.4",
+    "payload": "^3.23.0",
     "typescript": "^5.7.3"
   },
   "peerDependencies": {
