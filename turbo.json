@@ -16,7 +16,7 @@
     },
     "generate-types": {
       "dependsOn": ["^generate-types"],
-      "outputs": ["types/**"]
+      "outputs": ["src/types/**"]
     },
     "dev": {
       "cache": false,
