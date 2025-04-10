@@ -14,17 +14,17 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/db-mongodb": "^3.23.0",
-    "@payloadcms/next": "^3.23.0",
-    "@payloadcms/richtext-lexical": "^3.23.0",
+    "@payloadcms/db-mongodb": "^3.33.0",
+    "@payloadcms/next": "^3.33.0",
+    "@payloadcms/richtext-lexical": "^3.33.0",
     "@repo/payload": "workspace:*",
     "cross-env": "^7.0.3",
     "graphql": "^16.10.0",
     "next": "^15.3.0",
-    "payload": "^3.23.0",
+    "payload": "^3.33.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.34.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",

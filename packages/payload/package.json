@@ -21,16 +21,16 @@
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^22.14.0",
-    "payload": "^3.23.0",
+    "payload": "^3.33.0",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "@payloadcms/db-mongodb": "^3.x.x",
-    "@payloadcms/richtext-lexical": "^3.x.x",
-    "graphql": "16.x.x",
-    "payload": "^3.x.x",
-    "sharp": "0.x.x",
-    "react": "^19.x.x",
-    "react-dom": "^19.x.x"
+    "@payloadcms/db-mongodb": "^3.33.0",
+    "@payloadcms/richtext-lexical": "^3.33.0",
+    "graphql": "^16.10.0",
+    "payload": "^3.33.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sharp": "^0.34.1"
   }
 }
