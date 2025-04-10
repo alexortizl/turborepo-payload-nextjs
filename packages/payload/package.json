@@ -29,6 +29,8 @@
     "@payloadcms/richtext-lexical": "^3.x.x",
     "graphql": "16.x.x",
     "payload": "^3.x.x",
-    "sharp": "0.x.x"
+    "sharp": "0.x.x",
+    "react": "^19.x.x",
+    "react-dom": "^19.x.x"
   }
 }
