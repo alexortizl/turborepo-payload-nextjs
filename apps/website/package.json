@@ -9,21 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@payloadcms/db-mongodb": "^3.47.0",
-    "@payloadcms/richtext-lexical": "^3.47.0",
+    "@payloadcms/db-mongodb": "3.48.0",
+    "@payloadcms/richtext-lexical": "3.48.0",
     "@repo/payload": "workspace:*",
-    "graphql": "^16.11.0",
-    "next": "^15.4.1",
-    "payload": "^3.47.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "sharp": "^0.34.3"
+    "graphql": "16.11.0",
+    "next": "15.4.2",
+    "payload": "3.48.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sharp": "0.34.3"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4.1.11",
-    "@types/node": "^22.16.4",
+    "@types/node": "^24.0.14",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "postcss": "^8.5.6",
